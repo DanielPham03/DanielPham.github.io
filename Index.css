@@ -205,6 +205,6 @@
                 }
                 .chi-tiet-1>li>a:after {
                     display: none;
-                           line-height: 10px;
+                    height: 10px;
                 }
            }
