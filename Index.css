@@ -179,6 +179,9 @@
                 .chi-tiet-1-1>a {
                     font-size: 10px;
                 }
+                .chi-tiet-1>li>a:after {
+                    display: none;
+                }
             }
             
             @media only screen and (max-width:883px) {
