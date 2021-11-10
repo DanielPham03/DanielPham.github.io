@@ -199,7 +199,11 @@
                 }
                 .chi-tiet-1,
                 .khung,
-                body {
+                body,
+                .chi-tiet-1-1>a {
                     font-size: 6px;
                 }
-            }
+                .chi-tiet-1>li>a:after {
+                    display: none;
+                }
+           }
