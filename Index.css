@@ -176,9 +176,6 @@
                     font-size: 12px;
                     line-height: 20px;
                 }
-                .chi-tiet-1>li>a:after {
-                    display: none;
-                }
                 .chi-tiet-1-1>a {
                     font-size: 10px;
                 }
