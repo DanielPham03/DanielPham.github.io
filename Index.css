@@ -1,208 +1,706 @@
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            
-            body {
-                font-family: tahoma;
-                font-size: 20px;
-                background-image: url("https://cdn.pixabay.com/photo/2017/06/24/07/58/coffee-2436931_960_720.jpg");
-                background-repeat: repeat-y;
-                background-size: cover;
-            }
-            
-            .options_icon {
-                background-color: inherit;
-                border: none;
-                color: rgb(250, 250, 250);
-                font-size: 16px;
-            }
-            
-            .options_icon:hover {
-                background: rgb(13, 150, 147);
-                transition: ease-in 0.35s;
-                -moz-transition: ease-in 0.35s;
-                -webkit-transition: ease-in 0.35s;
-            }
-            
-            #danh-sach-tuy-chon {
-                width: 100%;
-                max-height: 60px;
-                background: rgb(22, 179, 145);
-                margin: 0;
-                text-transform: uppercase;
-            }
-            
-            ul.de-muc>li {
-                list-style: none;
-                float: left;
-            }
-            
-            .a1 div {
-                display: block;
-                max-height: 60px;
-                color: rgb(250, 250, 250);
-                text-decoration: none;
-                padding: 0 15px 0 15px;
-                line-height: 60px;
-            }
-            
-            .a1 div a {
-                color: rgb(250, 250, 250);
-            }
-            
-            .chi-tiet-1>li>a:after {
-                content: "\f101";
-                font-family: Fontawesome;
-                position: absolute;
-                left: 190px;
-            }
-            
-            .a1:hover {
-                background: rgb(13, 150, 147);
-                transition: ease-in 0.35s;
-                -moz-transition: ease-in 0.35s;
-                -webkit-transition: ease-in 0.35s;
-            }
-            
-            .chi-tiet-1 a {
-                text-decoration: none;
-                color: aliceblue;
-                font-size: 14px;
-                padding: 0 15px 0 5px;
-                border-bottom: 1px solid rgba(99, 121, 116, 0.5);
-                background: rgb(22, 179, 145);
-                line-height: 35px;
-                display: block;
-                text-indent: 5px;
-                display: none;
-            }
-            
-            .chi-tiet-1 a:hover {
-                background: rgb(13, 150, 147);
-                color: rgb(250, 250, 250);
-                transition: ease-in 0.35s;
-                -moz-transition: ease-in 0.35s;
-                -webkit-transition: ease-in 0.35s;
-            }
-            
-            .a1:hover .chi-tiet-1-1>a {
-                display: block;
-            }
-            
-            .chi-tiet-1>li {
-                list-style: none;
-                position: relative;
-            }
-            /* .chi-tiet-2 ul li {
-            display: flex;
-            flex-direction: column;
-            width: 230px;
-            height: 35px;
-            top: 1px;
-            left: 101%;
-            list-style: none;
-            text-transform: none;
-            position: absolute;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #title>img {
+        width: 350px;
+        height: auto;
+    }
+    
+    #title {
+        display: block;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    div#title {
+        text-align: center;
+    }
+    
+    body {
+        font-family: Roboto;
+        font-size: 18px;
+        background-image: url("https://images6.alphacoders.com/343/343403.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    .options_icon {
+        background-color: inherit;
+        border: none;
+        color: rgb(250, 250, 250);
+        font-size: 16px;
+    }
+    
+    .options_icon:hover {
+        background: rgb(13, 150, 147);
+        transition: ease-in 0.35s;
+        -moz-transition: ease-in 0.35s;
+        -webkit-transition: ease-in 0.35s;
+    }
+    
+    #danh-sach-tuy-chon {
+        width: 100%;
+        max-height: 60px;
+        background: rgb(22, 179, 145);
+        margin: 0;
+        text-transform: uppercase;
+    }
+    
+    #group_items_1 {
+        position: sticky;
+        -webkit-position: sticky;
+        top: 0;
+        z-index: 0;
+    }
+    
+    ul.de-muc>li {
+        list-style: none;
+        float: left;
+    }
+    
+    .a1 div {
+        display: block;
+        max-height: 60px;
+        color: rgb(250, 250, 250);
+        text-decoration: none;
+        padding: 0 15px 0 15px;
+        line-height: 60px;
+    }
+    
+    .a1 div a {
+        color: rgb(250, 250, 250);
+    }
+    
+    .chi-tiet-1>li>a:after {
+        content: "\f101";
+        font-family: Fontawesome;
+        position: absolute;
+        left: 190px;
+    }
+    
+    .a1:hover {
+        background: rgb(13, 150, 147);
+        transition: ease-in 0.35s;
+        -moz-transition: ease-in 0.35s;
+        -webkit-transition: ease-in 0.35s;
+    }
+    
+    .chi-tiet-1 a {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 13px;
+        padding: 0 15px 0 5px;
+        border-bottom: 1px solid rgba(99, 121, 116, 0.5);
+        background: rgb(22, 179, 145);
+        line-height: 35px;
+        display: block;
+        text-indent: 5px;
+        display: none;
+    }
+    
+    .chi-tiet-1 a:hover {
+        background: rgb(13, 150, 147);
+        color: rgb(250, 250, 250);
+        transition: ease-in 0.35s;
+        -moz-transition: ease-in 0.35s;
+        -webkit-transition: ease-in 0.35s;
+    }
+    
+    .a1:hover .chi-tiet-1-1>a {
+        display: block;
+    }
+    
+    .chi-tiet-1>li {
+        list-style: none;
+        position: relative;
+    }
+    /* .chi-tiet-2 ul li {
+display: flex;
+flex-direction: column;
+width: 230px;
+height: 35px;
+top: 1px;
+left: 101%;
+list-style: none;
+text-transform: none;
+position: absolute;
+}
+
+.chi-tiet-2:hover {
+background: rgb(13, 150, 147);
+color: rgb(250, 250, 250);
+transition: ease-in 0.35s;
+-moz-transition: ease-in 0.35s;
+-webkit-transition: ease-in 0.35s;
+}
+
+.detail_1:hover .chi-tiet-2 li {
+display: block;
+transition: ease-in 0.35s;
+-moz-transition: ease-in 0.35s;
+-webkit-transition: ease-in 0.35s;
+} */
+    
+    #danh-sach-tuy-chon>ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 2fr;
+    }
+    
+    .search {
+        height: 13px;
+        width: 400px;
+        padding: 10px 0 10px 0px;
+        border: 3px outset #118088;
+        background-color: rgba(10, 128, 126, 0.5);
+        text-indent: 30px;
+    }
+    
+    .khung:before {
+        content: '\f002';
+        font-family: Fontawesome;
+        position: absolute;
+        padding: 10px 0 10px 10px;
+        color: rgb(158, 157, 157);
+    }
+    
+    .khung {
+        padding: 10px 0 10px 30px;
+    }
+    
+    .sign_in_icon {
+        background-color: inherit;
+        border: none;
+        color: rgb(31, 28, 228);
+        font-size: 16px;
+    }
+    
+    .sign_in {
+        padding: 20px 0 15px 150px;
+        font-size: 16px;
+        color: rgb(58, 55, 221);
+        position: relative;
+    }
+    /* .content_1 {
+    display: none;
+} */
+    
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 4fr 2fr 1fr;
+    }
+    
+    .content>div {
+        height: 800px;
+    }
+    
+    table {
+        height: 800px;
+    }
+    
+    .content_1,
+    .content_2 {
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+    
+    div.content_1 {
+        border-right: 2px outset rgb(22, 179, 145);
+    }
+    
+    .table td {
+        width: 631.76px
+    }
+    
+    .heading {
+        height: 135px;
+        background-color: rgba(22, 179, 145, 0.3);
+        font-family: "Helvetica Neue";
+    }
+    
+    .heading div {
+        text-align: center;
+        height: 70px;
+        font-size: 25px;
+        color: red;
+    }
+    
+    .heading td {
+        border-bottom: 2px solid red;
+    }
+    
+    .pagination_ {
+        height: 540px;
+    }
+    
+    .pagination_ td {
+        border-bottom: 2px dashed black;
+    }
+    
+    .pagination_>li {
+        float: left;
+        height: 179px;
+    }
+    
+    .pagination_ ul {
+        list-style: none;
+    }
+    
+    .pagination_>div {
+        height: 176px;
+    }
+    
+    .pagination_ img {
+        height: 170px;
+        padding: 3px;
+        width: 120px;
+    }
+    
+    .detail_inf {
+        float: top;
+        list-style: none;
+    }
+    
+    div.detail_inf {
+        height: 100px;
+        display: inline-block;
+        top: 20px;
+    }
+    
+    .detail_title {
+        padding-top: 10px;
+    }
+    
+    div.detail_title {
+        height: 30px;
+        padding-left: 00px;
+        display: block;
+    }
+    
+    .detail_inf>ul {
+        list-style: none;
+    }
+    
+    div.detail_inf {
+        height: 80px;
+        padding-left: 150px;
+        padding-top: 30px;
+    }
+    
+    .name {
+        color: rgb(31, 28, 228);
+    }
+    
+    li.book_1 {
+        background-color: rgba(127, 255, 212, 0.541);
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    
+    li.book_2 {
+        background-color: rgba(250, 235, 215, 0.746);
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    
+    li.book_3 {
+        background-color: rgba(61, 148, 151, 0.671);
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    
+    .blank {
+        height: 125px
+    }
+    
+    .content_2 div {
+        text-align: center;
+    }
+    
+    div.user_title {
+        height: 70px;
+        padding: 0px auto;
+        font-size: 25px;
+    }
+    
+    .content_2 img {
+        height: 150px;
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
+    
+    .content_2 ul {
+        list-style: none;
+    }
+    
+    .date {
+        color: red;
+    }
+    
+    .quantity {
+        text-decoration: underline;
+    }
+    
+    #group_content_3 div {
+        height: 169px;
+        width: 100%;
+    }
+    
+    #group_content_3 div.footer {
+        background-color: rgba(255, 255, 255);
+    }
+    
+    div#group_content_3 {
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+    }
+    
+    #group_content_3 {
+        display: block;
+    }
+    
+    div.form {
+        border-left: 5px solid rgb(69, 82, 97);
+        background-color: rgb(204, 209, 208)
+    }
+    
+    #name,
+    #email,
+    .submit_button {
+        float: left;
+    }
+    
+    .form_title {
+        position: absolute;
+        padding-left: 80px;
+        padding-top: 15px;
+    }
+    
+    input#email,
+    #name {
+        width: 260px;
+        height: 40px;
+        font-size: 20px;
+        border: 0px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    
+    input#email {
+        margin-top: 15px;
+    }
+    
+    input.submit_button {
+        width: 60px;
+        height: 40px;
+        background-color: rgb(22, 179, 145);
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    
+    input.submit_button:hover {
+        background: rgb(13, 150, 147);
+        color: rgb(250, 250, 250);
+        transition: ease-in 0.35s;
+        -moz-transition: ease-in 0.35s;
+        -webkit-transition: ease-in 0.35s;
+    }
+    /* Set the style for the a tag */
+    
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 12px 18px;
+        text-decoration: none;
+    }
+    /* set the style for the active class */
+    
+    .pagination a.active {
+        background-color: rgba(22, 179, 145, 0.75);
+        color: white;
+        /*Circle Design with CSS*/
+        border-radius: 50%;
+    }
+    /* add background color when user hovers on inactive class */
+    
+    .pagination a:hover:not(.active) {
+        background-color: #ddd;
+        border-radius: 50%;
+    }
+    
+    div.pagination {
+        height: 80px;
+        float: right;
+    }
+    
+    @media only screen and (max-width:1270px) and (min-width:1020px) {
+        #title>img {
+            width: 280px;
+            height: auto;
         }
-        
-        .chi-tiet-2:hover {
-            background: rgb(13, 150, 147);
-            color: rgb(250, 250, 250);
-            transition: ease-in 0.35s;
-            -moz-transition: ease-in 0.35s;
-            -webkit-transition: ease-in 0.35s;
+        .search {
+            max-width: 300px;
         }
-        
-        .detail_1:hover .chi-tiet-2 li {
+        body,
+        .options_icon,
+        .sign_in_icon,
+        #de-muc,
+        .a1,
+        .chi-tiet-1,
+        .sign_in,
+        #danh-sach-tuy-chon {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .chi-tiet-1-1>a {
+            font-size: 12px;
+        }
+        .chi-tiet-1>li>a:after {
+            display: none;
+        }
+        input#email,
+        #name {
+            width: 180px;
+            height: 27px;
+            font-size: 12px;
+            border: 0px;
+            margin-left: 30px;
+            margin-top: 40px;
+        }
+        input#email {
+            margin-top: 15px;
+        }
+        input.submit_button {
+            width: 43px;
+            height: 29px;
+            font-size: 12px;
+            margin-top: 15px;
+        }
+        #group_content_3 div {
+            height: 130px;
+        }
+        .content_2 img {
+            height: 100px;
+            width: 100px;
+        }
+        div.user_title,
+        .heading div {
+            font-size: 20px;
+        }
+        tr.heading {
+            height: 80px;
+        }
+        td.head_box {
+            padding-top: 7px;
+        }
+        div.user_title {
+            padding-top: 8px;
+        }
+        tr.blank {
+            height: 80px;
+        }
+        tr.pagination_ td {
+            height: 530px;
+        }
+    }
+    
+    @media only screen and (min-width: 570px) and (max-width:1019px) {
+        #title>img {
+            width: 150px;
+            height: auto;
+        }
+        .search {
+            max-width: 200px;
+        }
+        li.khung::before {
+            font-size: 12px;
+            padding-top: 13px;
+        }
+        .sign_in>a,
+        .a1>div a {
+            display: none;
+        }
+        .sign_in_icon,
+        .options_icon {
+            font-size: 17px;
+        }
+        .chi-tiet-1,
+        body,
+        .chi-tiet-1-1>a {
+            font-size: 10px;
+            height: 20px;
+            padding-top: 2px;
+        }
+        body {
+            padding-top: 0px;
+        }
+        .chi-tiet-1 a {
+            font-size: 6px;
+        }
+        .chi-tiet-1>li>a:after {
+            display: none;
+            height: 10px;
+        }
+        div#02_b {
+            height: 50px;
+        }
+        div.detail_title {
+            font-size: 16px;
+        }
+        div.detail_inf {
+            font-size: 13px;
+            padding-left: 30px;
+        }
+        .pagination_ img {
+            height: 150px;
+            width: 107px;
+        }
+        div.user_title,
+        .heading div {
+            font-size: 15px;
+            height: 25px;
+        }
+        div.pagination {
+            height: 60px;
+        }
+        tr.blank,
+        tr.heading {
+            height: 50px;
+        }
+        .content_2 img {
+            height: 80px;
+            width: 80px;
+        }
+        #group_content_3 div {
+            height: 80px;
+        }
+        input#email,
+        #name {
+            width: 125px;
+            height: 21px;
+            font-size: 10px;
+            border: 0px;
+            margin-left: 5px;
+            margin-top: 15px;
+        }
+        input#email {
+            margin-top: 15px;
+        }
+        input.submit_button {
+            width: 30px;
+            height: 21px;
+            font-size: 12px;
+            margin-top: 15px;
+        }
+        label.form_title {
+            padding-left: 10px;
+            padding-top: 2px;
+        }
+    }
+    
+    @media only screen and (max-width: 569px) {
+        #title>img {
+            width: 150px;
+            height: auto;
+        }
+        .search {
+            max-width: 200px;
+        }
+        li.khung::before {
+            font-size: 12px;
+            padding-top: 13px;
+        }
+        .sign_in>a,
+        .a1>div a {
+            display: none;
+        }
+        .sign_in_icon,
+        .options_icon {
+            font-size: 17px;
+        }
+        .chi-tiet-1,
+        body,
+        .chi-tiet-1-1>a {
+            font-size: 8px;
+            height: 20px;
+            padding-top: 2px;
+        }
+        body {
+            padding-top: 0px;
+        }
+        .chi-tiet-1 a {
+            font-size: 7px;
+            padding-left: 0px;
+            min-width: 70px;
+        }
+        .chi-tiet-1>li>a:after {
+            display: none;
+            height: 10px;
+        }
+        li.chi-tiet-1-1 {
+            font-size: 7px;
+        }
+        div#02_b {
+            height: 50px;
+        }
+        div.detail_title {
+            font-size: 12px;
+        }
+        div.detail_inf {
+            font-size: 10px;
+            padding-left: 20px;
+        }
+        .pagination_ img {
+            height: 180px;
+            width: 130px;
+        }
+        div.user_title,
+        .heading div {
+            font-size: 10px;
+            height: 25px;
+        }
+        div.pagination {
+            height: 60px;
+        }
+        book_1.div {
             display: block;
-            transition: ease-in 0.35s;
-            -moz-transition: ease-in 0.35s;
-            -webkit-transition: ease-in 0.35s;
-        } */
-            
-            #danh-sach-tuy-chon>ul {
-                display: grid;
-                grid-template-columns: 1fr 1fr 2fr 2fr;
-            }
-            
-            .search {
-                height: 13px;
-                width: 400px;
-                padding: 10px 0 10px 0px;
-                border: 3px outset #118088;
-                background-color: rgba(10, 128, 126, 0.5);
-                text-indent: 30px;
-            }
-            
-            .khung:before {
-                content: '\f002';
-                font-family: Fontawesome;
-                position: absolute;
-                padding: 10px 0 10px 10px;
-                color: gray;
-            }
-            
-            .khung {
-                padding: 10px 0 10px 30px;
-            }
-            
-            .sign_in_icon {
-                background-color: inherit;
-                border: none;
-                color: rgb(31, 28, 228);
-                font-size: 16px;
-            }
-            
-            .sign_in {
-                padding: 20px 0 15px 150px;
-                font-size: 16px;
-                color: rgb(58, 55, 221);
-                position: relative;
-            }
-            
-            @media only screen and (max-width:1270px) and (min-width:883px) {
-                .search {
-                    max-width: 300px;
-                }
-                body,
-                .options_icon,
-                .sign_in_icon,
-                #de-muc,
-                .a1,
-                .chi-tiet-1,
-                .sign_in,
-                #danh-sach-tuy-chon {
-                    font-size: 12px;
-                    line-height: 20px;
-                }
-                .chi-tiet-1-1>a {
-                    font-size: 10px;
-                }
-                .chi-tiet-1>li>a:after {
-                    display: none;
-                }
-            }
-            
-            @media only screen and (max-width:883px) {
-                .search {
-                    max-width: 200px;
-                }
-                .sign_in>a,
-                .a1>div a {
-                    display: none;
-                }
-                .sign_in_icon,
-                .options_icon {
-                    font-size: 16px;
-                }
-                .chi-tiet-1,
-                body,
-                .chi-tiet-1-1>a {
-                    font-size: 6px;
-                }
-                .chi-tiet-1>li>a:after {
-                    display: none;
-                    height: 10px;
-                }
-            }
+        }
+        tr.blank,
+        tr.heading {
+            height: 50px;
+        }
+        .content_2 img {
+            height: 80px;
+            width: 80px;
+        }
+        #group_content_3 div {
+            height: 80px;
+        }
+        input#email,
+        #name {
+            width: 125px;
+            height: 21px;
+            font-size: 10px;
+            border: 0px;
+            margin-left: 5px;
+            margin-top: 15px;
+        }
+        input#email {
+            margin-top: 15px;
+        }
+        input.submit_button {
+            width: 30px;
+            height: 21px;
+            font-size: 12px;
+            margin-top: 15px;
+        }
+        label.form_title {
+            padding-left: 10px;
+            padding-top: 2px;
+        }
+    }
