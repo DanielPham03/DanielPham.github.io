@@ -265,7 +265,7 @@ transition: ease-in 0.35s;
         height: 100px;
         display: inline-block;
         top: 20px;
-       font-size: 30px;
+       font-size: 20px;
     }
     
     .detail_title {
@@ -276,6 +276,7 @@ transition: ease-in 0.35s;
         height: 30px;
         padding-left: 00px;
         display: block;
+       font-size: 2px;
     }
     
     .detail_inf>ul {
@@ -321,7 +322,7 @@ transition: ease-in 0.35s;
     div.user_title {
         height: 70px;
         padding: 0px auto;
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .content_2 img {
